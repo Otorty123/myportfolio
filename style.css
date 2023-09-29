@@ -1,0 +1,466 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:950px){
+    .first-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    body{
+        font-size: 10px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+
+    .fourth-main img {
+        align-items: center;
+        
+    }
+
+    .fifth-main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .eleventh-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .twelveth-main h3,
+    .ninteenth-main h3 {
+        text-align: center;
+    }
+    .ninteenth-main {
+        padding-top: 5%;
+    }
+
+    .mongodb {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .twentyseven-main h3,
+    .thirtytwo-main h3 {
+        text-align: center;
+    }
+
+    
+
+    .thirtyseven-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .firstblog h3,
+    .secondblog h3,
+    .thirdblog h3{
+        font-size: 12px;
+
+    }
+    .firstblog p,
+    .secondblog p,
+    .thirdblog p{
+        font-size: 2px;
+    }
+
+    .thirtyeight-main img ,
+    .forty-main img,
+    .fortytwo-main .img{
+        height: 100%;
+        width: 100;
+        align-items: center;
+    }
+
+    .fortyfour-main h1{
+        font-size: 12px;
+    }
+
+    .fortyfive-main img {
+        height: 10%;
+        width: 2%;
+    }
+
+    .fortyfour-main p {
+        font-size: 2px;
+    }
+
+    
+}
+
+main{
+    font: 1em sans-serif;
+    background-color: #000;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+
+header {
+    padding-top: 2%;
+}
+
+.first-main {
+    display: flex;
+    padding-top: 5%;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    text-transform: capitalize;
+    color:white ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.israel span {
+color: #a71f17;
+}
+
+.israel {
+    padding-right: 45%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5%;
+    align-items: center;
+    text-align: center;
+    padding-right: 5%;
+}
+
+.third-main {
+    text-transform: capitalize;
+}
+
+.third-main h2 {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.third-main h2 .get {
+    color: #a71f17;
+}
+
+
+.third-main p {
+    padding-top: 10px;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.third-main button {
+    background: linear-gradient(#d02627, #140494);
+    padding: 10px;
+    font-size: 10px;
+    color: white;
+    margin-top: 3%;
+    width: 12vw;
+    border-radius: 5px;
+    border: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fourth-main img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.fifth-main {
+    background-color:#151515 ;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+.sixth-main img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.seventh-main {
+    font: inherit;
+    align-items: center;
+    padding-top: 10%;
+    padding-left: 5%;
+    text-transform: capitalize;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.seventh-main h2{
+    color: #a71f17;
+    padding-bottom: 5px;
+}
+
+.seventh-main p {
+        font-size: 13px;
+}
+.img {
+    padding-top: 3%;
+    display: flex;
+}
+
+.eighth-main img,
+.ninth-main img,
+.tenth-main img {
+    height: 3vh;
+    width: 2vw;
+}
+
+.solver {
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.eleventh-main {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4%;
+}
+
+#my {
+    color:  #a71f17;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 4%;
+    font-size: 25px;
+}
+
+.twelveth-main h3{
+    text-transform: uppercase;
+}
+
+.front-end {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.thirteenth-main img,
+.fourteenth-main img,
+.fifteenth-main img,
+.sixteenth-main img,
+.seventeenth-main img,
+.eighteenth-main img {
+    height: 3vh;
+    width: 2vw;
+}
+
+.html {
+    padding-left: 5px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+.twenty-main img,
+.twentyone-main img,
+.twentytwo-main img,
+.twentythree-main img,
+.twentyfour-main img,
+.twentyfive-main img,
+.twentysix-main img {
+    height: 3vh;
+    width: 2vw;
+}
+.twentyeight-main img,
+.twentynine-main img,
+.thirty-main img,
+.thirtyone-main img {
+    height: 3vh;
+    width: 2vw;
+}
+.thirtythree-main img,
+.thirtyfour-main img,
+.thirtyfive-main img,
+.thirtysix-main img {
+    height: 3vh;
+    width: 2vw;
+}
+
+.mon {
+    padding-left: 5px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+.figma {
+    padding-left: 5px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+.nodes {
+    padding-left: 5px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+.back-end {
+    display: flex;
+    padding-top: 4%;
+    justify-content: center;
+}
+
+.ninteenth-main h3 {
+    text-transform: uppercase;
+}
+
+.mongodb {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4%;
+}
+
+.twentyseven-main h3 {
+    text-transform: uppercase;
+    
+}
+
+.database {
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.thirtytwo-main h3 {
+    text-transform: uppercase;
+}
+
+.ui-design {
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+}
+
+.works {
+    background: linear-gradient(#d02627, #140494);
+    padding: 8px;
+    font-size: 10px;
+    color: white;
+    margin: 3% 0 10% 45%;
+    width: 13vw;
+    border-radius: 7px;
+    border: 5px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.thirtyseven-main {
+    display: flex;
+    margin-top: 5%;
+}
+
+.recentblog {
+    text-align: center;
+    padding-top: 5%;
+    text-transform: capitalize;
+    color: #a71f17;
+}
+
+.post {
+    padding-left: 0;
+}
+
+.thirtyeight-main img {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.forty-main img {
+    height: 100%;
+    width: 100%;
+}
+
+.fortyone-main {
+    padding-right: 0;
+}
+
+.fortytwo-main img{
+    height: 20vh;
+    width: 13vw;
+}
+
+.firstblog,
+.secondblog,
+.thirdblog {
+    background-color: #151515;
+    padding:0 4% 4% 5%;
+    margin: 0 2% 2% 2% ;
+    border: 3px;
+    border-radius: 5px;
+}
+
+
+.firstblog p,
+.secondblog p,
+.thirdblog p {
+    font-size: 13px;
+    text-transform: capitalize;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.fortythree-main {
+    background-color: #151515;
+    padding-top: 7%;
+}
+
+.fortythree-main h1 {
+    text-align: center;
+    color: #a71f17;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.fortythree-main p {
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 2%;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.fortyfour-main {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.fortyfour-main h1 {
+    color: #a71f17;
+    text-transform: capitalize;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.fortytwo-main img {
+    height: 100%;
+    width: 100%;
+    margin-top: 20;
+}
+
+.fortyfour-main p {
+    text-transform: capitalize;
+    padding-top: 3px;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
