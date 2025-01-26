@@ -5,8 +5,21 @@
 }
 
 @media screen and (max-width:950px){
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* .main {
+        background-color: red;
+        gap: 300px; */
+    /* } */
     .first-main {
         display: flex;
+        text-align: center;
         flex-direction: column;
     }
 
@@ -16,21 +29,80 @@
 
     header {
         display: flex;
+        gap: 10px;
+        font-size: 14px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         flex-direction: column;
         text-align: center;
+        /* align-items: center; */
     }
     
+    .nav a, .israel {
+        display: none;
+    }
 
+    nav {
+        display: flex;
+        justify-content: space-around;
+        gap: 2px;
+        text-transform: capitalize;
+        color:white ;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
     .fourth-main img {
         align-items: center;
         
     }
 
+    #about p {
+        /* text-overflow: clip; */
+        text-align:justify;
+        /* align-items: center; */
+        padding-top: 10px;
+        font-size: 12px;
+        white-space: wrap;
+        font-family: Arial, Helvetica, sans-serif;
+        /* font-style: normal; */
+        /* white-space: pre; */
+        /* letter-spacing: 0.5px; */
+        /* word-spacing: 0.5px; */
+        
+    }
+
+    #about button {
+        width: 20%;
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
     .fifth-main {
         display: flex;
         flex-direction: column-reverse;
+        align-items: center;
     }
 
+    .img {
+        display: flex;
+        /* flex-direction: column-re; */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+        /* line-height: 1px; */
+    }
+
+    #seventh p {
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        /* word-spacing: 0.5px; */
+        /* letter-spacing: 0.5px; */
+        /* line-height: 30px; */
+        /* font-weight: bold; */
+        white-space: wrap;
+        text-align: justify;
+        /* align-items: ju; */
+    }
     .eleventh-main {
         display: flex;
         flex-direction: column;
@@ -42,6 +114,29 @@
     }
     .ninteenth-main {
         padding-top: 5%;
+    }
+
+    a .works {
+        width: 28%;
+        white-space: nowrap;
+        font-size: 12px;
+    }
+    #send {
+        width: 32%;
+        white-space: nowrap;
+        font-size: 12px;
+    }
+
+    #work {
+        width: 23%;
+        white-space: nowrap;
+        font-size: 12px;
+    }
+    .eleventh-main {
+        /* display: flex;
+        justify-content: space-around;
+        padding-top: 4%; */
+        gap: 20px;
     }
 
     .mongodb {
@@ -81,13 +176,18 @@
         align-items: center;
     }
 
+    .fortythree-main p {
+        white-space: wrap;
+        text-align: justify;
+        align-items: center;
+    }
     .fortyfour-main h1{
         font-size: 12px;
     }
 
-    .fortyfive-main img {
-        height: 10%;
-        width: 2%;
+    .fortyfive-main a img {
+        height: 15%;
+        width: 8%;
     }
 
     .fortyfour-main p {
@@ -111,12 +211,17 @@ header {
 .first-main {
     display: flex;
     padding-top: 5%;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 10%;
+    /* white-space: pre; */
 }
 
 nav {
     display: flex;
     justify-content: space-around;
+    gap: 200px;
     text-transform: capitalize;
     color:white ;
     font-family: Arial, Helvetica, sans-serif;
@@ -138,8 +243,14 @@ color: #a71f17;
     align-items: center;
     text-align: center;
     padding-right: 5%;
+    /* text-decoration: none; */
 }
 
+.nav a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
 .third-main {
     text-transform: capitalize;
 }
@@ -151,27 +262,36 @@ color: #a71f17;
 
 .third-main h2 .get {
     color: #a71f17;
+    
 }
 
 
 .third-main p {
+    text-align: center;
+    align-items: center;
     padding-top: 10px;
-    font-size: 12px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    white-space: pre;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+    
 }
 
 .third-main button {
     background: linear-gradient(#d02627, #140494);
     padding: 10px;
-    font-size: 10px;
+    font-size: 14px;
     color: white;
-    margin-top: 3%;
+    /* gap: 50px; */
+    margin-top: 2%;
     width: 12vw;
     border-radius: 5px;
     border: 10px;
     text-transform: capitalize;
     font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .fourth-main img {
@@ -196,20 +316,33 @@ color: #a71f17;
 .seventh-main {
     font: inherit;
     align-items: center;
+    text-align: center;
     padding-top: 10%;
-    padding-left: 5%;
+    /* padding-left: 5%; */
     text-transform: capitalize;
     justify-content: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .seventh-main h2{
     color: #a71f17;
-    padding-bottom: 5px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-size: 16px; */
+    padding-bottom: 2px;
+    text-align: center;
 }
 
 .seventh-main p {
-        font-size: 13px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        word-spacing: 0.5px;
+        letter-spacing: 0.5px;
+        /* line-height: 30px; */
+        /* font-weight: bold; */
+        white-space: pre;
+        text-align: center;
+        align-items: center;
 }
 .img {
     padding-top: 3%;
@@ -225,6 +358,7 @@ color: #a71f17;
 
 .solver {
     padding-left: 5px;
+    line-height: 22px;
     font-weight: bold;
 }
 
@@ -352,15 +486,16 @@ color: #a71f17;
 .works {
     background: linear-gradient(#d02627, #140494);
     padding: 8px;
-    font-size: 10px;
+    font-size: 16px;
     color: white;
     margin: 3% 0 10% 45%;
     width: 13vw;
     border-radius: 7px;
     border: 5px;
+    cursor: pointer;
     text-transform: capitalize;
     font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .thirtyseven-main {
@@ -403,6 +538,7 @@ color: #a71f17;
 .firstblog,
 .secondblog,
 .thirdblog {
+    text-align: center;
     background-color: #151515;
     padding:0 4% 4% 5%;
     margin: 0 2% 2% 2% ;
@@ -414,9 +550,11 @@ color: #a71f17;
 .firstblog p,
 .secondblog p,
 .thirdblog p {
-    font-size: 13px;
+    align-items: center;
+    font-size: 14px;
+    text-align: center;
     text-transform: capitalize;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .fortythree-main {
@@ -429,15 +567,15 @@ color: #a71f17;
     color: #a71f17;
     text-transform: capitalize;
     font-weight: bold;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .fortythree-main p {
     text-align: center;
     text-transform: capitalize;
     padding-top: 2%;
-    font-size: 12px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .fortyfour-main {
